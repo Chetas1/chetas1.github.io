@@ -42,6 +42,7 @@
                 <a href="#projects" class="text-gray-600 hover:text-indigo-600 transition duration-300">Projects</a>
                 <a href="#experience" class="text-gray-600 hover:text-indigo-600 transition duration-300">Experience</a>
                 <a href="#skills" class="text-gray-600 hover:text-indigo-600 transition duration-300">Skills</a>
+                <a href="#education" class="text-gray-600 hover:text-indigo-600 transition duration-300">Education</a>
                 <a href="#contact" class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition duration-300">Contact</a>
             </div>
             <button id="mobile-menu-button" class="md:hidden text-gray-800">
@@ -54,6 +55,7 @@
             <a href="#projects" class="block py-2 px-4 text-sm hover:bg-gray-100">Projects</a>
             <a href="#experience" class="block py-2 px-4 text-sm hover:bg-gray-100">Experience</a>
             <a href="#skills" class="block py-2 px-4 text-sm hover:bg-gray-100">Skills</a>
+            <a href="#education" class="block py-2 px-4 text-sm hover:bg-gray-100">Education</a>
             <a href="#contact" class="block py-2 px-4 text-sm hover:bg-gray-100">Contact</a>
         </div>
     </header>
@@ -90,10 +92,10 @@
                 </div>
                 <div class="md:col-span-2 text-lg text-gray-700 space-y-4">
                     <p>
-                        I am a Staff Software Engineer with over 8 years of hands-on experience in the tech industry. My expertise lies in architecting and developing robust Cloud Security solutions.
+                        Staff Software Engineer with over 8+ years of experience architecting and delivering scalable, multi-cloud security solutions. Proven track record in leading complex initiatives, including monolith-to-microservices migrations, building custom Kubernetes Operators, and expanding products into new cloud ecosystems (AWS, Azure, GCP).
                     </p>
                     <p>
-                        I have a proven track record of designing and implementing high-performance, scalable systems using Go, Python, and Kubernetes. I'm passionate about enhancing cloud security, optimizing system performance, and driving cost efficiency. My goal is to leverage my skills to build innovative and secure cloud-native applications.
+                        Expertise in designing high-performance systems in Go, optimizing database performance (Cosmos DB, Neo4j), and driving significant improvements in security, cost, and efficiency for CSPM & DSPM platforms.
                     </p>
                 </div>
             </div>
@@ -224,29 +226,50 @@
             <div class="mt-12 max-w-4xl mx-auto">
                 <div class="bg-white p-8 rounded-lg shadow-md border border-gray-100 mb-8">
                     <h3 class="text-2xl font-bold text-indigo-600">Zscaler</h3>
-                    <p class="text-gray-500 font-medium">Staff Software Engineer | 2020 - Present</p>
+                    <p class="text-gray-500 font-medium">Staff Software Engineer | Apr 2020 - Present</p>
+                    <p class="text-sm text-gray-600 mt-2 mb-4">Skills: Golang, Kubernetes, Kafka, gRPC, Neo4j, Distributed System, MongoDB, Postgres, AWS, Azure, GCP, Grafana, Redis, Terraform, Unit Testing</p>
+                    
+                    <h4 class="text-lg font-semibold text-gray-800 mt-6 mb-3">Zscaler - Data Security Posture Management (Z-DSPM)</h4>
                     <ul class="mt-4 list-disc list-inside text-gray-700 space-y-2">
-                        <li>Architected and delivered GCP data scan services for Data Security Posture Management (DSPM), engineering a dual-mode solution to support both NAT and non-NAT environments, thereby expanding product compatibility.</li>
-                        <li>Spearheaded Kubernetes Security Posture Management (KSPM) enhancements on Azure by deploying targeted security controls, achieving a 10% improvement in posture scores.</li>
-                        <li>Engineered a custom Kubernetes agent using CRDs which improved the efficiency of resource data collection by 15%.</li>
-                        <li>Led the integration of Neo4j into the core CSPM product, building a production-ready data pipeline and visualization layer that doubled user insights and usability.</li>
-                        <li>Re-architected the flagship product from a monolith to a high-performance microservices system using Go and Kubernetes, resulting in a 20% gain in runtime efficiency.</li>
-                        <li>Optimized high-scale Cosmos DB workloads by redesigning the partitioning schema, which accelerated query performance by 20% and reduced database costs by 50%.</li>
+                        <li>Researched, developed & delivered GCP data scan services for Workload & Cloud storage for Data Security Posture Management (DSPM), engineering a dual-mode solution to support both NAT and non-NAT environments, thereby expanding product compatibility.</li>
+                        <li>Led a team to develop an inventory collection service that gathered data at scale, tracking the resource creation and deletion lifecycle to monitor resources and potential costs in customer environments.</li>
+                        <li>Worked with the product team to research and implement Databricks integration for DSPM, supporting a cost-optimized solution to collect data via compute (SQL method) or directly from the control plane (APIs).</li>
+                        <li>Wrote code using interfaces to easily create mocks for testing and consistently ensured unit test coverage remained above 80%.</li>
+                        <li>Accelerated data scanning by dynamically scaling resources based on pending events, while simultaneously capping usage to maintain predictable costs for customers.</li>
+                        <li>Enhanced service efficiency by profiling Go applications with pprof, analyzing memory allocations (heap) and goroutine lifecycles to significantly reduce the memory footprint.</li>
+                    </ul>
+
+                    <h4 class="text-lg font-semibold text-gray-800 mt-6 mb-3">Zscaler Posture Control (ZPC)</h4>
+                    <ul class="mt-4 list-disc list-inside text-gray-700 space-y-2">
+                        <li>Architected and implemented a Kubernetes Security Posture Management (KSPM) solution specifically for Azure Kubernetes Service (AKS).</li>
+                        <li>Developed a custom Kubernetes Operator to fully automate the deployment, updates, and lifecycle management of the KSPM data collection agent.</li>
+                        <li>Authored production-ready Terraform scripts to create a streamlined and automated onboarding process for customers using the AKS solution.</li>
+                        <li>Engineered a reusable Kafka client package for event handling, which was adopted across all microservices to standardize communication, reduce code duplication, and accelerate future development.</li>
+                        <li>Led the technical team in integrating the Neo4j graph database to significantly enhance the platform's data visualization capabilities.</li>
+                        <li>Collaborated directly with the system architect to brainstorm and analyze the benefits and trade-offs of using Neo4j, influencing the final architectural decision.</li>
+                        <li>Led the architectural transformation of a monolithic application into a distributed microservices solution, containerizing services and adopting Kubernetes to enhance scalability and resilience.</li>
+                        <li>Optimized Cosmos DB performance by re-architecting the data partitioning strategy to ensure balanced Request Unit (RU) consumption, successfully eliminating frequent throttling errors and improving scalability.</li>
                     </ul>
                 </div>
                 <div class="bg-white p-8 rounded-lg shadow-md border border-gray-100 mb-8">
                     <h3 class="text-2xl font-bold text-indigo-600">Cloudneeti</h3>
                     <p class="text-gray-500 font-medium">Cloud Platform Engineer | 2018 - 2020</p>
+                    <p class="text-sm text-gray-600 mt-2 mb-4">Skills: C#, Azure Functions, .Net, Cosmos DB, Azure Event Grid, AWS, Azure Application Insights</p>
                     <ul class="mt-4 list-disc list-inside text-gray-700 space-y-2">
-                        <li>Co-engineered a multi-cloud CSPM solution for Azure and AWS, increasing system reliability from 40% to 60%.</li>
-                        <li>Drove the evolution of the core product by enabling its publication to the Azure Marketplace and integrating AWS data collection, which boosted customer accessibility by 40%.</li>
+                        <li>Expanded the product's capabilities by engineering its first integration with Amazon Web Services (AWS) for resource collection, establishing a foundational framework for future multi-cloud support.</li>
+                        <li>Engineered a resilient and scalable solution to mitigate cloud API throttling and improve performance by implementing the fan-in/fan-out design pattern to effectively manage and distribute Function App workloads.</li>
+                        <li>Re-architected the scan state management system by migrating from an in-memory model to a persistent solution using Azure Storage. This enhancement provided real-time visibility into scan completion percentages and significantly improved the reliability and recoverability of the scheduling process.</li>
+                        <li>Engineered a custom policy engine that empowers users to define their own security and compliance rules. This solution provides the capability for users to write custom validation queries, significantly increasing the platform's flexibility and ability to meet specific organizational needs.</li>
                     </ul>
                 </div>
                 <div class="bg-white p-8 rounded-lg shadow-md border border-gray-100">
                     <h3 class="text-2xl font-bold text-indigo-600">Excellon Software</h3>
                     <p class="text-gray-500 font-medium">Associate Software Engineer | 2017 - 2018</p>
+                    <p class="text-sm text-gray-600 mt-2 mb-4">Skills: C#, MSSQL, Entity Framework</p>
                     <ul class="mt-4 list-disc list-inside text-gray-700 space-y-2">
                         <li>Developed and maintained a high-performance Dealership Management System using .NET and SQL Server.</li>
+                        <li>As a key member of the research team, analyzed performance bottlenecks and prototyped usability enhancements to identify and validate opportunities for product improvement.</li>
+                        <li>Significantly improved application responsiveness by meticulously analyzing and tuning SQL queries. This involved rewriting complex joins and refining indexes to drastically reduce data retrieval latency.</li>
                     </ul>
                 </div>
             </div>
@@ -312,7 +335,24 @@
                                 <h4 class="font-bold">Associate Cloud Engineer (Google Cloud)</h4>
                             </div>
                         </div>
+                        <div class="bg-white p-4 rounded-lg shadow-md flex items-center space-x-4">
+                            <i class="fas fa-database text-2xl text-green-500"></i>
+                            <div>
+                                <h4 class="font-bold">Neo4j Certified Professional</h4>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="py-20 border-t border-gray-200 fade-in">
+            <h2 class="text-4xl font-bold text-center text-gray-900">Education</h2>
+            <div class="mt-12 max-w-4xl mx-auto">
+                <div class="bg-white p-8 rounded-lg shadow-md border border-gray-100">
+                    <h3 class="text-2xl font-bold text-indigo-600">HVPM, Amravati, India</h3>
+                    <p class="text-gray-500 font-medium">SGBAU University | Computer Science & Engineering (B.E.) | 2014-2017</p>
                 </div>
             </div>
         </section>
