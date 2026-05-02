@@ -1,6 +1,6 @@
 # chetas1.github.io
 
-> Personal portfolio site for Chetas Patil — Staff Software Engineer focused on Cloud Security (CSPM/DSPM) and the transition into Autonomous Systems / AI Agents.
+> Personal portfolio site for Chetas Patil — Staff Software Engineer focused on Cloud Security (CSPM/DSPM), transitioning into AI/ML and AI Agents.
 
 [![Live site](https://img.shields.io/badge/Live-chetas1.github.io-2563eb?logo=github&logoColor=white)](https://chetas1.github.io)
 
@@ -20,10 +20,10 @@ Single-page static site, no build step:
 | Section          | Notes                                                                |
 |------------------|----------------------------------------------------------------------|
 | Hero             | Headline, role, primary CTAs (LinkedIn, GitHub, contact)             |
-| About Me         | Tenure summary, current focus (CSPM, DSPM, agentic AI)               |
+| About Me         | Tenure summary, current focus (CSPM, DSPM, AI/ML, agentic AI)        |
 | Experience       | Zscaler / DataArt / Sasken / Persistent / Tata Communications        |
 | Certifications   | CKAD, AWS Cloud Practitioner, GCP Associate Cloud Engineer           |
-| Skills           | Languages, cloud platforms, distributed systems, ML/agentic AI tools |
+| Skills           | Languages, cloud platforms, distributed systems, AI/ML, agentic AI   |
 | Contact          | Email + social links                                                 |
 
 ## Local Development
@@ -49,4 +49,4 @@ Pushes to `main` are published automatically by GitHub Pages. The site root is t
 - LinkedIn: [linkedin.com/in/chetaspatil7](https://www.linkedin.com/in/chetaspatil7/)
 - Email: `chetaspatil.7@gmail.com`
 
-If you're recruiting for **Staff Engineering** in Cloud Security (CSPM / DSPM) or **Research** roles in Autonomous Systems / AI Agents, I'm open to conversations — please reach out via LinkedIn.
+If you're recruiting for **Staff Engineering** in Cloud Security (CSPM / DSPM) or **AI/ML** / **AI Agents** roles, I'm open to conversations — please reach out via LinkedIn.
