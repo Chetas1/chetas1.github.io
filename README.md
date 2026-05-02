@@ -1,10 +1,10 @@
-# chetas1.github.io
+# chetas-patil.github.io
 
 > Personal portfolio site for Chetas Patil — Staff Software Engineer focused on Cloud Security (CSPM/DSPM), transitioning into AI/ML and AI Agents.
 
-[![Live site](https://img.shields.io/badge/Live-chetas1.github.io-2563eb?logo=github&logoColor=white)](https://chetas1.github.io)
+[![Live site](https://img.shields.io/badge/Live-chetas-patil.github.io-2563eb?logo=github&logoColor=white)](https://chetas-patil.github.io)
 
-🌐 **Live:** [chetas1.github.io](https://chetas1.github.io)
+🌐 **Live:** [chetas-patil.github.io](https://chetas-patil.github.io)
 
 ## Stack
 
@@ -29,8 +29,8 @@ Single-page static site, no build step:
 ## Local Development
 
 ```bash
-git clone https://github.com/Chetas1/chetas1.github.io.git
-cd chetas1.github.io
+git clone https://github.com/Chetas1/chetas-patil.github.io.git
+cd chetas-patil.github.io
 
 # Any static server works; pick one:
 python3 -m http.server 8000
